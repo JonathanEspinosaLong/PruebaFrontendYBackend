@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.button-holder {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button {
+	color: white;
+	font-size: 5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	transition: width 0.333333s ease-in, background-color 0.333333s ease-in;
+	border-radius: 0.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.button-red {
+	background-color: #ea4335;
+	width: 240px;
+}
+
+.button-green {
+	background-color: #34a853;
+	width: 400px;
+}
+
+.button-blue {
+	background-color: #4285f4;
+	width: 320px;
+}
